@@ -1,0 +1,35 @@
+:root {
+  /*cores*/
+  --corfundo: #e5e5e5;
+  --corPrecoAntigo: #b5b5b6;
+  --corPrecoNovo: #DA4B4F;
+  --corParcelas: #848587;
+  --corPreta: #000000;
+  --corBranca: #FFFFFF;
+  --corBordaCartao:#848484;
+  --corBotaoDefault: #40B25C;
+  --corBotaoHover: #1C6C3E;
+  --corBotaoSelecionado: #A3F9B9;
+
+
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color:var(--corfundo);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+  }
+
+  @media only screen and (max-width: 670px) {
+    .App {
+      height: auto;
+    }
+  }
+
+
+

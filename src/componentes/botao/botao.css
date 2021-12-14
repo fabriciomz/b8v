@@ -1,0 +1,30 @@
+button.btnAdicionar {
+    background-color: var(--corBotaoDefault);
+    font-size: 1.3em;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 48px;
+    color: var(--corBranca);
+    border-radius: 5px;
+  }
+  
+  button.btnAdicionar:hover{
+    background-color: var(--corBotaoHover) ;
+  }
+  
+
+  button.btnAdicionado {
+    background-color: var(--corBotaoSelecionado);
+    font-size: 1.3em;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 48px;
+    color: var(--corPreta);
+    border-radius: 5px;
+  }
+ 
+  

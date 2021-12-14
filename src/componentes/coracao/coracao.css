@@ -1,0 +1,28 @@
+.coracao1 {
+    border: none;
+    background: url("../assets/coracao1.png") center/cover;
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .coracao1:hover{
+    
+    background: url("../assets/coracao2.png") center/cover;
+  }
+
+  .coracao2 {
+    border: none;
+    background: url("../assets/coracao3.png") center/cover;
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .coracao2:hover{
+    background: url("../assets/coracao4.png") center/cover;
+  }

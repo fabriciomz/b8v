@@ -1,0 +1,69 @@
+.cartao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: var(--corBranca);
+    border-radius: 5px;
+    width: 304px;
+    height: fit-content;
+    border: 1px solid var(--corBordaCartao);
+  }
+  
+  .cartao:hover {
+    background: var(--corBranca);
+    box-shadow: 1px 1px 8px var(--corPreta);
+   
+  }
+  .areaImg1 {
+     background: url("../assets/monitor.png") center/cover;
+     background-size: 240px 240px;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 280px;
+   }
+
+   .areaImg2 {
+    background: url("../assets/note.png") center/cover;
+     background-size: 240px 240px;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 280px;
+   }
+
+   .textos {
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 0.7rem;
+  }
+  
+  .descricao{
+    line-height: 1rem;
+  }
+  
+  .precoAntigo{
+    text-decoration: line-through;
+    color: var(--corPrecoAntigo);
+    font-size: 0.8rem;
+  }
+  
+  .precoNovo{
+    color: var(--corPrecoNovo);
+    font-size: 1.3rem;
+  }
+  
+  .precoParcelas{
+    color: var(--corParcelas);
+    font-size: 0.8rem;
+  }
+  
+  .destaqueParcelas{
+    color:var(--corPreta);
+  }
+  
+  .base {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
